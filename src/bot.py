@@ -37,5 +37,5 @@ bot.load_extension('tasks.dates')
 print('dates load')'''
 
 
-TOKEN = config('TOKEN_DUMMIE') #TOKEN fica em maiusculas para ser uma constante
+TOKEN = config('TOKEN_BOT') #TOKEN fica em maiusculas para ser uma constante
 bot.run(TOKEN)
