@@ -160,6 +160,5 @@ async def get_random_image(ctx):
     embed_image.add_field(name = 'exemplos', value = url_image, inline = False)
 
     await ctx.send(embed= embed_image)
-#bot.run("OTI0MDY3Mjk3NDkxMDMwMDM2.YcZKvA.t3jc_hfjgHXCgYGFgwxhFch-iPM")
 TOKEN = config('TOKEN_DUMMIE') #TOKEN fica em maiusculas para ser uma constante
 bot.run(TOKEN)
